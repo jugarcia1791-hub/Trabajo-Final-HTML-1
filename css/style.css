@@ -167,6 +167,7 @@ right: 0;
 }
 
 .services-section {
+    text-align: center; 
    background-image:linear-gradient(
     rgba(0,0,0,0.7)
     rgba(0,0,0,0.7)),
@@ -176,4 +177,42 @@ right: 0;
     background-size: cover; 
     background-attachment: fixed;
     padding:100px 0 ;
+}
+.services-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: azure;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}   
+
+.services-content h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+   line-height: 70px;
+   color: #fff ;
+   padding: 0 250px ;
+   margin-bottom: 50px;
+    
+}   
+.service-p {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 40px;
+    padding: 0 100px ;
+} 
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px ; 
+}
+.service-1  {
+    padding: 0 100px ;  
+}
+.service-1 img  {
+    width: 25px;
+    margin-bottom: 15px;
 }
