@@ -281,3 +281,48 @@ right: 0;
         flex-wrap: wrap;
         margin-top: 30px;
         }
+
+        .blog-1 {
+            padding: 15px 55px ;
+    }
+        .blog-1 img  {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 15px;
+
+    }
+
+    .blog-1 h3    {
+        font-size: 24px;
+        margin: 15px 0;
+        color: #333;
+    }
+    .blog-1 p {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+padding: 100px 0;}
+
+ .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;}
+
+    link h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;  
+    margin-bottom: 15px;} 
+
+    link a {
+    display: block;
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 10px;}
